@@ -20,6 +20,6 @@ See [demo] (https://www.dropbox.com/s/i1e0vuntzcb2dp1/A.avi?dl=0)
 
 ## Acknowledgments
 
-* Guide on roundede buttons: [Link](http://stackoverflow.com/questions/6054562/how-to-make-the-corners-of-a-button-round)
+* Guide on rounded buttons: [Link](http://stackoverflow.com/questions/6054562/how-to-make-the-corners-of-a-button-round)
 
 
