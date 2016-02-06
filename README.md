@@ -1,10 +1,10 @@
 # PROG 01: Crunch Time
 
-Briefly describe your app here.
+This app allows users to do two things. One, they can enter a number of calories and see how many reps/minutes of various exercises they would need to do to burn those calories. Also, they can enter an exercise and number of reps/minutes and see how many calories doing the exercise will burn. From there, they can also see how many reps/minutes of other exercises will burn an equivalent amount of calories.
 
 ## Authors
 
-FirstName LastName ([your_email@berkeley.edu](mailto:your_email@berkeley.edu))
+Sunjay Koshy ([koshy1@berkeley.edu](mailto:your_email@berkeley.edu))
 
 ## Demo Video
 
@@ -12,11 +12,14 @@ See [your demo video title here] (https://link_to_your_video)
 
 ## Screenshots
 
-<img src="screenshots/main.png" height="400" alt="Screenshot"/>
+<img src="screenshots/0_HomeScreen.png" height="400" alt="Screenshot1"/>
+<img src="screenshots/1_0_InputCaloriesScreen.png" height="400" alt="Screenshot2"/>
+<img src="screenshots/1_1_CalExResultsScreen.png" height="400" alt="Screenshot3"/>
+<img src="screenshots/1_0_InputExercisesScreen.png" height="400" alt="Screenshot4"/>
+<img src="screenshots/1_1_ExCalResultsScreen.png" height="400" alt="Screenshot5"/>
 
 ## Acknowledgments
 
-* Hat tip to anyone who's code was used
-* Any other support
+* Guide on roundede buttons: [Link](http://stackoverflow.com/questions/6054562/how-to-make-the-corners-of-a-button-round)
 
-*Feel free to enhance your README. For Markdown syntax, see [the GitHub Guides](https://guides.github.com/features/mastering-markdown/). Remove this line in your submission.*
+
