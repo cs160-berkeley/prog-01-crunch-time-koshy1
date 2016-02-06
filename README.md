@@ -8,7 +8,7 @@ Sunjay Koshy ([koshy1@berkeley.edu](mailto:your_email@berkeley.edu))
 
 ## Demo Video
 
-See [your demo video title here] (https://www.dropbox.com/s/i1e0vuntzcb2dp1/A.avi?dl=0)
+See [demo] (https://www.dropbox.com/s/i1e0vuntzcb2dp1/A.avi?dl=0)
 
 ## Screenshots
 
