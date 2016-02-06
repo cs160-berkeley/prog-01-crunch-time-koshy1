@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sunjay.crunchtime">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".ExtoCalMenu"
+            android:label="@string/title_activity_exto_cal_menu"
+            android:parentActivityName=".Main2"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.sunjay.crunchtime.Main2" />
+        </activity>
+        <activity
+            android:name=".CaltoExMenu"
+            android:label="@string/title_activity_calto_ex_menu"
+            android:parentActivityName=".Main2"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.sunjay.crunchtime.Main2" />
+        </activity>
+        <activity
+            android:name=".CalcCal"
+            android:label="@string/title_activity_calc_cal"
+            android:parentActivityName=".ExtoCalMenu"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.sunjay.crunchtime.ExtoCalMenu" />
+        </activity>
+        <activity
+            android:name=".CalcEx"
+            android:label="@string/title_activity_calc_ex"
+            android:parentActivityName=".CaltoExMenu"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.sunjay.crunchtime.CaltoExMenu" />
+        </activity>
+        <activity
+            android:name=".Main2"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/FullscreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

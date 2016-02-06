@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:label="Results"
+    android:orientation="vertical"
+    android:background="#50d3b5"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.sunjay.crunchtime.CalcCal"
+    tools:showIn="@layout/activity_calc_cal">
+    <TextView
+        android:id="@+id/burn_message"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text=" "/>
+    <TextView
+        android:id="@+id/burn_amount"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/burn_message"
+        android:fontFamily="sans-serif-medium"
+        android:textStyle="bold"
+        android:textColor="#ff33cc"
+        android:textSize="50sp"
+        android:text=" "/>
+    <TextView
+        android:id="@+id/calories"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/burn_amount"
+        android:textSize="15sp"
+        android:text="Calories\n"/>
+    <TextView
+        android:id="@+id/followingexercises"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/calories"
+        android:textSize="12sp"
+        android:text=" "/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/followingexercises">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/exercise1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textSize="12sp"
+                android:text=" "/>
+            <TextView
+                android:id="@+id/exercise2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textSize="12sp"
+                android:text=" "/>
+            <TextView
+                android:id="@+id/exercise3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textSize="12sp"
+                android:text=" "/>
+            <TextView
+                android:id="@+id/exercise4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textSize="12sp"
+                android:text=" "/>
+            <TextView
+                android:id="@+id/exercise5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textSize="12sp"
+                android:text=" "/>
+            <TextView
+                android:id="@+id/exercise6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textSize="12sp"
+                android:text=" "/>
+            <TextView
+                android:id="@+id/exercise7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textSize="12sp"
+                android:text=" "/>
+            <TextView
+                android:id="@+id/exercise8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textSize="12sp"
+                android:text=" "/>
+            <TextView
+                android:id="@+id/exercise9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textSize="12sp"
+                android:text=" "/>
+            <TextView
+                android:id="@+id/exercise10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textSize="12sp"
+                android:text=" "/>
+            <TextView
+                android:id="@+id/exercise11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textSize="12sp"
+                android:text=" "/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
